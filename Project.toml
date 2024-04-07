@@ -1,0 +1,9 @@
+name = "blockchain"
+uuid = "2ef2343e-6f00-4d7d-b841-dd5f8ae3a668"
+authors = ["mrl00 <m2l_0@outlook.com>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
