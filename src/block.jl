@@ -12,7 +12,7 @@ struct Block
     hash::String
 end
 
-Block(index=0x1, data="genesis", previous_hash=gen_hash("genesis"); timestamp=Dates.now()) =
+Block(index=0x1, data="genesis", previous_hash=repeat("0", length(gen_hash(""))); timestamp=Dates.now()) =
     Block(index,
         data,
         timestamp,
